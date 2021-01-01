@@ -26,12 +26,6 @@ int main() {
     ySumSq = squareNumber(ySum);
   }
 
-  //   puts("Enter y Values");
-  //   for (int i = 0; i <= n; i++) {
-  //     scanf("%d", &yVaues[i]);
-  //     ySum = ySum + yVaues[i];
-  //     ySumSq = squareNumber(ySum);
-  //   }
   y = a * x + b;
   //   Print the output here
   printf("Sum of X values is: %d\n", xSum);      // Print sumation of x values
