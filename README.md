@@ -1,5 +1,19 @@
-# Custom Gitpod Template
+# Correlation c/c++ Program
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4b4de99cb54f4fd890032eed7b4bd6f2)](https://app.codacy.com/manual/kallyasmedia/gitpod-custom?utm_source=github.com&utm_medium=referral&utm_content=kallyas/gitpod-custom&utm_campaign=Badge_Grade_Dashboard)
+A Program to find the Correlation coefficient of a given set of values
 
-custom gitpod docker config
+## How to Run
+
+- On Linux: run `gcc corelation.c -o corelation` to create an executalbe file then run the file by `./corelation`
+  <br >If you get permission error, set mode to executable by running `chmode +x [filename.c]`
+  <br> For C++, use `g++` to compile file by running `g++ -o main main.cpp`
+
+- On Windows, Use your compilers such as mingw, digital mars or editors with inbuilt compilers ie. Dev++ to compile code and make an executable file
+
+## Contributing
+
+Fork this repository and make a Pull Request
+
+## License
+
+[MIT](./LICENSE)
